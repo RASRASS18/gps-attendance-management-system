@@ -1,451 +1,345 @@
-# 🚀 GPS Attendance Management System
+<div align="center">
 
-> Enterprise employee attendance platform with GPS validation, selfie verification, shift management, activity monitoring and reporting.
+# 📍 GPS Attendance Management System
 
-![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?logo=php)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?logo=mysql)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?logo=bootstrap)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript)
+### GPS Validation • Photo Verification • Shift Management • Leave • Field Activities • Reporting
+
+A professional attendance and field-operations platform for monitoring employee presence, work locations, schedules, leave requests, and operational activities.
+
+<p>
+  <img src="https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/GPS-Location%20Validation-0A66C2?style=for-the-badge" alt="GPS">
+  <img src="https://img.shields.io/badge/Privacy-Faces%20Blurred-238636?style=for-the-badge" alt="Privacy Safe">
+</p>
+
+</div>
 
 ---
 
 ## 📌 Platform Overview
 
-A professional attendance management application developed for operational field employees. The platform combines GPS location validation, selfie/photo verification, employee scheduling, leave management, activity documentation, and comprehensive reporting into one centralized system.
+The GPS Attendance Management System centralizes employee attendance, GPS-based location validation, check-in/check-out photo verification, post management, shift scheduling, leave requests, field assignments, activity documentation, reporting, and audit logs.
 
-> **Demo:** _Available upon request._
-
----
-
-# ✨ Core Features
-
-- 📍 GPS Check In / Check Out
-- 📷 Selfie Attendance Verification
-- 👥 Employee Management
-- 🏢 Posko / Office Management
-- 🕒 Shift Scheduling
-- 📅 Attendance History
-- 📝 Leave & Permission
-- 📸 Activity Documentation
-- 🗺️ Map & Geolocation
-- 📊 Dashboard Analytics
-- 📈 Reports & Export Excel
-- 🔐 Role Based Access
-- ⚡ Responsive Interface
+This repository is a **privacy-safe portfolio showcase**. Faces shown in attendance and activity evidence have been blurred before publication.
 
 ---
 
-# 🧭 Business Workflow
+## ✨ Core Features
 
-1. User Login
-2. GPS & Selfie Attendance
-3. Shift Validation
-4. Activity Recording
-5. Leave / Permission Management
-6. Monitoring Dashboard
-7. Attendance Reports
-8. Export & Administration
+- GPS check-in and check-out
+- Photo/selfie verification
+- Employee and user management
+- Operational post/location management
+- Shift and shift-pattern configuration
+- Attendance history and monitoring
+- Leave and permission workflows
+- Field assignments
+- Daily activity documentation
+- Report export
+- System activity log
+- Responsive employee dashboard
 
 ---
 
-# 🖼️ Application Screenshots
+## 📸 Complete Application Gallery
 
-Replace the filenames below with your uploaded screenshots if needed.
 
-## code logo
+### Secure Login
 
-![](code-logo.png)
+<p align="center">
+  <img src="./01-Login.png" alt="Secure Login" width="100%">
+</p>
 
-_code logo module demonstrating the enterprise workflow and user experience._
-
-## masuk user 12 20260506 100251
-
-![](masuk_user_12_20260506_100251.jpg)
-
-_masuk user 12 20260506 100251 module demonstrating the enterprise workflow and user experience._
-
-## masuk user 12 20260507 203126
-
-![](masuk_user_12_20260507_203126.jpg)
-
-_masuk user 12 20260507 203126 module demonstrating the enterprise workflow and user experience._
-
-## masuk user 13 20260507 202015
-
-![](masuk_user_13_20260507_202015.jpg)
-
-_masuk user 13 20260507 202015 module demonstrating the enterprise workflow and user experience._
-
-## masuk user 1 20260505 141611
-
-![](masuk_user_1_20260505_141611.jpg)
-
-_masuk user 1 20260505 141611 module demonstrating the enterprise workflow and user experience._
-
-## masuk user 1 20260505 142944
-
-![](masuk_user_1_20260505_142944.jpg)
-
-_masuk user 1 20260505 142944 module demonstrating the enterprise workflow and user experience._
-
-## masuk user 1 20260505 143051
-
-![](masuk_user_1_20260505_143051.jpg)
-
-_masuk user 1 20260505 143051 module demonstrating the enterprise workflow and user experience._
-
-## masuk user 1 20260505 143316
-
-![](masuk_user_1_20260505_143316.jpg)
-
-_masuk user 1 20260505 143316 module demonstrating the enterprise workflow and user experience._
-
-## masuk user 1 20260505 143739
-
-![](masuk_user_1_20260505_143739.jpg)
-
-_masuk user 1 20260505 143739 module demonstrating the enterprise workflow and user experience._
-
-## masuk user 1 20260505 172852
-
-![](masuk_user_1_20260505_172852.jpg)
-
-_masuk user 1 20260505 172852 module demonstrating the enterprise workflow and user experience._
-
-## masuk user 1 20260512 161417
-
-![](masuk_user_1_20260512_161417.jpg)
-
-_masuk user 1 20260512 161417 module demonstrating the enterprise workflow and user experience._
-
-## masuk user 2 20260512 090146
-
-![](masuk_user_2_20260512_090146.jpg)
-
-_masuk user 2 20260512 090146 module demonstrating the enterprise workflow and user experience._
-
-## masuk user 3 20260512 090002
-
-![](masuk_user_3_20260512_090002.jpg)
-
-_masuk user 3 20260512 090002 module demonstrating the enterprise workflow and user experience._
-
-## masuk user 9 20260512 112712
-
-![](masuk_user_9_20260512_112712.jpg)
-
-_masuk user 9 20260512 112712 module demonstrating the enterprise workflow and user experience._
-
-## pulang user 12 20260507 203143
-
-![](pulang_user_12_20260507_203143.jpg)
-
-_pulang user 12 20260507 203143 module demonstrating the enterprise workflow and user experience._
-
-## pulang user 3 20260512 113203
-
-![](pulang_user_3_20260512_113203.jpg)
-
-_pulang user 3 20260512 113203 module demonstrating the enterprise workflow and user experience._
-
-## pulang user 9 20260512 112740
-
-![](pulang_user_9_20260512_112740.jpg)
-
-_pulang user 9 20260512 112740 module demonstrating the enterprise workflow and user experience._
-
-## izin user 12 20260513 074307
-
-![](izin_user_12_20260513_074307.jpg)
-
-_izin user 12 20260513 074307 module demonstrating the enterprise workflow and user experience._
-
-## izin user 12 20260513 074508
-
-![](izin_user_12_20260513_074508.jpg)
-
-_izin user 12 20260513 074508 module demonstrating the enterprise workflow and user experience._
-
-## izin user 1 20260514 114220
-
-![](izin_user_1_20260514_114220.jpg)
-
-_izin user 1 20260514 114220 module demonstrating the enterprise workflow and user experience._
-
-## izin user 3 20260513 050540
-
-![](izin_user_3_20260513_050540.jpg)
-
-_izin user 3 20260513 050540 module demonstrating the enterprise workflow and user experience._
-
-## izin user 3 20260513 050551
-
-![](izin_user_3_20260513_050551.jpg)
-
-_izin user 3 20260513 050551 module demonstrating the enterprise workflow and user experience._
-
-## izin user 3 20260513 050559
-
-![](izin_user_3_20260513_050559.jpg)
-
-_izin user 3 20260513 050559 module demonstrating the enterprise workflow and user experience._
-
-## izin user 3 20260513 050808
-
-![](izin_user_3_20260513_050808.jpg)
-
-_izin user 3 20260513 050808 module demonstrating the enterprise workflow and user experience._
-
-## izin user 3 20260513 051220
-
-![](izin_user_3_20260513_051220.jpg)
-
-_izin user 3 20260513 051220 module demonstrating the enterprise workflow and user experience._
-
-## izin user 3 20260513 052230
-
-![](izin_user_3_20260513_052230.jpg)
-
-_izin user 3 20260513 052230 module demonstrating the enterprise workflow and user experience._
-
-## izin user 3 20260513 052413
-
-![](izin_user_3_20260513_052413.jpg)
-
-_izin user 3 20260513 052413 module demonstrating the enterprise workflow and user experience._
-
-## izin user 3 20260513 052952
-
-![](izin_user_3_20260513_052952.jpg)
-
-_izin user 3 20260513 052952 module demonstrating the enterprise workflow and user experience._
-
-## kegiatan user 12 20260506 100405
-
-![](kegiatan_user_12_20260506_100405.jpg)
-
-_kegiatan user 12 20260506 100405 module demonstrating the enterprise workflow and user experience._
-
-## kegiatan user 12 20260507 203413
-
-![](kegiatan_user_12_20260507_203413.jpg)
-
-_kegiatan user 12 20260507 203413 module demonstrating the enterprise workflow and user experience._
-
-## kegiatan user 1 20260505 144228
-
-![](kegiatan_user_1_20260505_144228.jpg)
-
-_kegiatan user 1 20260505 144228 module demonstrating the enterprise workflow and user experience._
-
-## kegiatan user 1 20260505 144249
-
-![](kegiatan_user_1_20260505_144249.jpg)
-
-_kegiatan user 1 20260505 144249 module demonstrating the enterprise workflow and user experience._
-
-## kegiatan user 1 20260505 144306
-
-![](kegiatan_user_1_20260505_144306.jpg)
-
-_kegiatan user 1 20260505 144306 module demonstrating the enterprise workflow and user experience._
-
-## kegiatan user 1 20260505 144323
-
-![](kegiatan_user_1_20260505_144323.jpg)
-
-_kegiatan user 1 20260505 144323 module demonstrating the enterprise workflow and user experience._
-
-## kegiatan user 1 20260505 144344
-
-![](kegiatan_user_1_20260505_144344.jpg)
-
-_kegiatan user 1 20260505 144344 module demonstrating the enterprise workflow and user experience._
-
-## kegiatan user 1 20260505 144411
-
-![](kegiatan_user_1_20260505_144411.jpg)
-
-_kegiatan user 1 20260505 144411 module demonstrating the enterprise workflow and user experience._
-
-## kegiatan user 1 20260514 172852
-
-![](kegiatan_user_1_20260514_172852.jpg)
-
-_kegiatan user 1 20260514 172852 module demonstrating the enterprise workflow and user experience._
-
-## kegiatan user 3 20260512 092940
-
-![](kegiatan_user_3_20260512_092940.jpg)
-
-_kegiatan user 3 20260512 092940 module demonstrating the enterprise workflow and user experience._
-
-## kegiatan user 3 20260512 111940
-
-![](kegiatan_user_3_20260512_111940.jpg)
-
-_kegiatan user 3 20260512 111940 module demonstrating the enterprise workflow and user experience._
-
-## kegiatan user 3 20260513 100149
-
-![](kegiatan_user_3_20260513_100149.jpg)
-
-_kegiatan user 3 20260513 100149 module demonstrating the enterprise workflow and user experience._
-
-## admin
-
-![](admin.jpg)
-
-_admin module demonstrating the enterprise workflow and user experience._
-
-## user 1 1778412610
-
-![](user_1_1778412610.jpg)
-
-_user 1 1778412610 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 12 20260507 203313
-
-![](tugas_luar_user_12_20260507_203313.jpg)
-
-_tugas luar user 12 20260507 203313 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 12 20260513 124648
-
-![](tugas_luar_user_12_20260513_124648.jpg)
-
-_tugas luar user 12 20260513 124648 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 1 20260505 135701
-
-![](tugas_luar_user_1_20260505_135701.jpeg)
-
-_tugas luar user 1 20260505 135701 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 1 20260505 135806
-
-![](tugas_luar_user_1_20260505_135806.png)
-
-_tugas luar user 1 20260505 135806 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 1 20260505 141828
-
-![](tugas_luar_user_1_20260505_141828.jpg)
-
-_tugas luar user 1 20260505 141828 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 1 20260505 143209
-
-![](tugas_luar_user_1_20260505_143209.jpg)
-
-_tugas luar user 1 20260505 143209 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 1 20260505 143432
-
-![](tugas_luar_user_1_20260505_143432.jpg)
-
-_tugas luar user 1 20260505 143432 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 1 20260514 164634
-
-![](tugas_luar_user_1_20260514_164634.jpg)
-
-_tugas luar user 1 20260514 164634 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 1 20260514 164926
-
-![](tugas_luar_user_1_20260514_164926.jpg)
-
-_tugas luar user 1 20260514 164926 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 1 20260514 165342
-
-![](tugas_luar_user_1_20260514_165342.jpg)
-
-_tugas luar user 1 20260514 165342 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 3 20260512 092626
-
-![](tugas_luar_user_3_20260512_092626.jpg)
-
-_tugas luar user 3 20260512 092626 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 3 20260512 092814
-
-![](tugas_luar_user_3_20260512_092814.jpg)
-
-_tugas luar user 3 20260512 092814 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 3 20260512 092900
-
-![](tugas_luar_user_3_20260512_092900.jpg)
-
-_tugas luar user 3 20260512 092900 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 3 20260512 104413
-
-![](tugas_luar_user_3_20260512_104413.jpg)
-
-_tugas luar user 3 20260512 104413 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 3 20260512 104439
-
-![](tugas_luar_user_3_20260512_104439.jpg)
-
-_tugas luar user 3 20260512 104439 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 3 20260512 111131
-
-![](tugas_luar_user_3_20260512_111131.jpg)
-
-_tugas luar user 3 20260512 111131 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 3 20260512 111839
-
-![](tugas_luar_user_3_20260512_111839.jpg)
-
-_tugas luar user 3 20260512 111839 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 3 20260512 113749
-
-![](tugas_luar_user_3_20260512_113749.jpg)
-
-_tugas luar user 3 20260512 113749 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 3 20260512 125931
-
-![](tugas_luar_user_3_20260512_125931.jpg)
-
-_tugas luar user 3 20260512 125931 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 3 20260512 144247
-
-![](tugas_luar_user_3_20260512_144247.jpg)
-
-_tugas luar user 3 20260512 144247 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 3 20260512 150059
-
-![](tugas_luar_user_3_20260512_150059.jpg)
-
-_tugas luar user 3 20260512 150059 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 3 20260513 100023
-
-![](tugas_luar_user_3_20260513_100023.jpg)
-
-_tugas luar user 3 20260513 100023 module demonstrating the enterprise workflow and user experience._
-
-## tugas luar user 3 20260513 100443
-
-![](tugas_luar_user_3_20260513_100443.jpg)
-
-_tugas luar user 3 20260513 100443 module demonstrating the enterprise workflow and user experience._
-
+Role-protected authentication for administrators and employees.
 
 ---
 
-# 🛠 Technology Stack
+
+### Administrator Dashboard
+
+<p align="center">
+  <img src="./02-Dashboard%20Admin.png" alt="Administrator Dashboard" width="100%">
+</p>
+
+Centralized monitoring of employee attendance, shifts, leave, activities, and operational status.
+
+---
+
+
+### User Data Form
+
+<p align="center">
+  <img src="./03-Data%20User.png" alt="User Data Form" width="100%">
+</p>
+
+Employee profile and account administration.
+
+---
+
+
+### Employee & User Directory
+
+<p align="center">
+  <img src="./03-List%20User.png" alt="Employee & User Directory" width="100%">
+</p>
+
+Searchable user directory for managing staff and attendance participants.
+
+---
+
+
+### Post / Work Location Data
+
+<p align="center">
+  <img src="./04-Data%20Posko.png" alt="Post / Work Location Data" width="100%">
+</p>
+
+Configuration of operational posts and approved attendance locations.
+
+---
+
+
+### Post Location Management
+
+<p align="center">
+  <img src="./05-Daftar%20Posko.png" alt="Post Location Management" width="100%">
+</p>
+
+Location list used for GPS-based attendance validation.
+
+---
+
+
+### Post Location Detail
+
+<p align="center">
+  <img src="./06-Daftar%20Posko%20B.png" alt="Post Location Detail" width="100%">
+</p>
+
+Detailed post information and location-management workflow.
+
+---
+
+
+### Shift Configuration
+
+<p align="center">
+  <img src="./07-Setting%20Shift.png" alt="Shift Configuration" width="100%">
+</p>
+
+Shift setup for controlling work schedules and attendance rules.
+
+---
+
+
+### Shift Pattern Management
+
+<p align="center">
+  <img src="./08-Pola%20Shift%20Setting.png" alt="Shift Pattern Management" width="100%">
+</p>
+
+Reusable shift patterns for assigning employee work cycles.
+
+---
+
+
+### GPS Attendance Form
+
+<p align="center">
+  <img src="./09-Absensi.png" alt="GPS Attendance Form" width="100%">
+</p>
+
+Mobile-friendly attendance flow using GPS and photo verification.
+
+---
+
+
+### Attendance Monitoring
+
+<p align="center">
+  <img src="./10-Daftar%20Absensi%20A.png" alt="Attendance Monitoring" width="100%">
+</p>
+
+Administrative attendance history with filters and status monitoring.
+
+---
+
+
+### Check-In Photo Verification
+
+<p align="center">
+  <img src="./11-Daftar%20Absensi%20-%20Foto%20Masuk.png" alt="Check-In Photo Verification" width="100%">
+</p>
+
+Privacy-safe preview of employee check-in evidence.
+
+---
+
+
+### Check-In Map Verification
+
+<p align="center">
+  <img src="./12-Daftar%20Absensi%20-%20Map%20Masuk.png" alt="Check-In Map Verification" width="100%">
+</p>
+
+Map-based validation of the check-in location.
+
+---
+
+
+### Complete Check-In & Check-Out Record
+
+<p align="center">
+  <img src="./13-Daftar%20Absensi%20-%20Pulang%20dan%20Masuk%20Complete.png" alt="Complete Check-In & Check-Out Record" width="100%">
+</p>
+
+Complete daily record combining check-in and check-out information.
+
+---
+
+
+### Leave Evidence Verification
+
+<p align="center">
+  <img src="./14-%20Izin%20Cuti%20-%20Bukti%20Foto.png" alt="Leave Evidence Verification" width="100%">
+</p>
+
+Supporting-document review for leave or permission requests.
+
+---
+
+
+### Leave & Permission Management
+
+<p align="center">
+  <img src="./14-%20Izin%20Cuti.png" alt="Leave & Permission Management" width="100%">
+</p>
+
+Submission and administrative monitoring of leave, permission, and absence requests.
+
+---
+
+
+### Employee Activity Records
+
+<p align="center">
+  <img src="./15-%20Kegiatan.png" alt="Employee Activity Records" width="100%">
+</p>
+
+Daily employee activity reporting and operational documentation.
+
+---
+
+
+### Activity Photo Documentation
+
+<p align="center">
+  <img src="./16-%20Kegiatan%20-%20Foto%20Kegiatan.png" alt="Activity Photo Documentation" width="100%">
+</p>
+
+Blurred activity-photo evidence for privacy-safe portfolio presentation.
+
+---
+
+
+### Field Assignment Management
+
+<p align="center">
+  <img src="./17%20-%20Tugas.png" alt="Field Assignment Management" width="100%">
+</p>
+
+Field-duty and assignment tracking for operational employees.
+
+---
+
+
+### Field Activity Documentation
+
+<p align="center">
+  <img src="./18%20-%20Kegiatan%20-%20Foto%20Kegiatan.png" alt="Field Activity Documentation" width="100%">
+</p>
+
+Additional privacy-safe field-activity documentation.
+
+---
+
+
+### Reports & Data Export
+
+<p align="center">
+  <img src="./19-Export.png" alt="Reports & Data Export" width="100%">
+</p>
+
+Attendance and operational data export for reporting and administration.
+
+---
+
+
+### System Activity Log
+
+<p align="center">
+  <img src="./20-Log%20Aktivitas.png" alt="System Activity Log" width="100%">
+</p>
+
+Audit trail for important user and administrator activities.
+
+---
+
+
+### Employee Dashboard
+
+<p align="center">
+  <img src="./21%20-%20Dashboard%20User.png" alt="Employee Dashboard" width="100%">
+</p>
+
+Employee self-service dashboard for attendance and daily operational access.
+
+---
+
+
+### Mobile Employee Dashboard
+
+<p align="center">
+  <img src="./22%20-%20%20Dashboard%20User%20B.png" alt="Mobile Employee Dashboard" width="100%">
+</p>
+
+Responsive employee dashboard optimized for mobile workflows.
+
+---
+
+
+## 🔄 Attendance Workflow
+
+```text
+Employee Login
+      │
+      ▼
+Shift & Schedule Validation
+      │
+      ▼
+GPS Location Validation
+      │
+      ├── Check-In Photo
+      └── Check-Out Photo
+      │
+      ▼
+Attendance Record
+      │
+      ├── Leave / Permission
+      ├── Field Assignment
+      └── Daily Activity
+      │
+      ▼
+Admin Monitoring
+      │
+      ▼
+Reports & Export
+```
+
+---
+
+## 💻 Technology Stack
 
 - PHP
 - MySQL
@@ -453,27 +347,46 @@ _tugas luar user 3 20260513 100443 module demonstrating the enterprise workflow 
 - JavaScript
 - HTML5
 - CSS3
+- Browser Geolocation API
+- Responsive web interface
 
 ---
 
-# 🔒 Security
+## 🔒 Security & Privacy
 
 - Role-based authentication
-- GPS validation
-- Attendance verification
 - Session management
-- Input validation
+- GPS location validation
+- Attendance evidence verification
+- Server-side input validation
+- Administrative activity logging
+- Public portfolio screenshots use blurred faces
 
 ---
 
-# 📄 Source Code
+## ⚠️ Source Code Notice
 
-This repository is intended to showcase the application interface, architecture, and implemented features. Full source code is private.
+This repository is intended for professional portfolio and product-showcase purposes only.
+
+The complete source code is private because it contains proprietary business logic, implementation details, and environment-specific configurations.
 
 ---
 
-# 👩‍💻 Developer
+## 👩‍💻 Developer
 
 **Sari Larasati**
 
-Senior PHP Web Developer • Enterprise Information Systems • 15+ Years Experience
+Senior Web Programmer & Freelance PHP Developer  
+Enterprise Information Systems • Attendance Platforms • Operational Reporting
+
+- GitHub: https://github.com/RASRASS18
+- Email: laraskhalid@gmail.com
+- Location: Mataram, West Nusa Tenggara, Indonesia
+
+---
+
+<div align="center">
+
+### Reliable attendance. Verified locations. Better operational visibility.
+
+</div>
